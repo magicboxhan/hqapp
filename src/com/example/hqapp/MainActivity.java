@@ -24,6 +24,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 //设置Webview的URL
+                WebView.setWebContentsDebuggingEnabled(true);
                 WebView wv1 = (WebView) findViewById(R.id.webView_1);
                 wv1.setWebChromeClient(new WebChromeClient());
                 wv1.setWebViewClient(new WebViewClient());
