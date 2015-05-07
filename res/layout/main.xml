@@ -12,12 +12,12 @@
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Open URL"
+            android:text="Set SharedPreferences"
             android:id="@+id/button_1" android:layout_gravity="center_horizontal"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Open Activity"
+            android:text="Get SharedPreferences"
             android:id="@+id/button_2" android:layout_gravity="center_horizontal"/>
     <WebView
             android:layout_width="match_parent"

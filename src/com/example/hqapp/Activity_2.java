@@ -19,6 +19,6 @@ public class Activity_2 extends Activity {
         wv1.setWebChromeClient(new WebChromeClient());
         wv1.setWebViewClient(new WebViewClient());
         wv1.getSettings().setJavaScriptEnabled(true);
-        wv1.loadUrl("http://www.bing.com");
+        wv1.loadUrl("http://www.baidu.com");
     }
 }
